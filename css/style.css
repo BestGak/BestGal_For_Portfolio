@@ -1,0 +1,1205 @@
+   @font-face {
+    font-family: "Bunny";
+    src: url(/fonts/Bunny.otf);
+}
+
+head,body{
+  margin: 0;
+}
+.header{
+  background: url(/images/header-bg.png) top center no-repeat;
+  height: 800px;
+  background-size: cover;
+  position: relative;
+}
+
+
+.dropdown {
+
+}
+
+.dropdown-child {
+  display: none;
+  background-color: #4e2815;
+  text-align: center;
+}
+
+.dropdown-child a {
+  color: white;
+  padding-bottom: 8px; 
+  text-decoration: none;
+  display: block;
+  margin: 0;
+    padding: 0;
+}
+.dropdown:hover .dropdown-child {
+  display: block;
+}
+
+#menu1{
+  width: 30px;
+}
+
+.nav-text{
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  padding-top: 20px;
+  margin: 0 10px;
+  
+}
+
+#home, #about, #team, #booking, #menu, #galerie, #events , #contact, #specialities{
+  cursor: pointer;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between; 
+  padding: 25px 80px 0px;
+  
+}
+
+.nav-line{
+  display: flex;
+  justify-content: space-around;
+  margin: -100px -50px;
+  max-width: 100%;
+}
+
+.nav-hr{
+  width: 530px;
+  border: 1px solid rgba(251, 255, 255, 0.1);
+}
+
+.main-text{
+display: flex;
+justify-content: space-between;
+padding: 326px 80px 0;
+
+}
+
+.time{
+  display:flex;
+}
+
+.time-work{
+  
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  color: #fff;
+  transform: rotate(270deg);
+  justify-content: end;
+  padding-left: 40px;
+
+}
+
+.header-title{
+font-family: 'Open Sans', sans-serif;
+font-size: 12px;
+font-weight: 700;
+line-height: 14px;
+color: #fff;
+letter-spacing: 4px;
+}
+
+.header-suptitle{
+  font-family: "Bunny";
+  font-size: 96px;
+  color: #fff;
+  letter-spacing: 12px;
+  margin: 0;
+}
+
+
+.name-restoraun{
+ text-align: center;
+ padding-right: 250px;
+}
+
+.social-media{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: end;
+}
+
+.name-line{
+  width: 60px;
+  border: 1px solid #E8C300
+}
+
+.btn{
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 72px;
+}
+
+.header-btn{
+  background-color: #E8C300;
+  color: #FFFFFF;
+  border: 0;
+  width: 200px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.header-button{
+  cursor: pointer;
+  color: #fff;
+  width: 200px;
+  height: 60px;
+  background: unset;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.header-last-btn{
+  width: 60px;
+  height: 60px;
+  background: url(/images/down-btn.svg);
+  border: 0;
+}
+
+.aboutus{
+  display: flex;
+  height: 675px;
+}
+
+.aboutus-text{
+  padding: 217px 0 0 81px;
+  width: 600px;
+  text-align: center;
+}
+
+.title-aboutus{
+  font-family: "Bunny";
+  font-size: 36px;
+  line-height: 48px;
+  color: #000000;
+}
+
+.aboutus-line{
+  width: 60px;
+  border: 1px solid #E8C300
+  
+}
+.suptitle-aboutus{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.suptitle-aboutus1{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.images-aboutus{
+  padding-top: 100px;
+  padding-left: 80px;
+  display: flex;
+}
+
+.image-about{
+  width: 475px;
+  height: 475px;
+}
+
+#square {
+  margin: 95px -126px;
+	width: 210px;
+	height: 210px;
+  border: 20px solid #E8C300
+}
+
+.ourteam{
+  background: url(/images/special-bg.png);
+  height: 675px;
+}
+
+.ourteam-title{
+text-align: center;
+font-family: 'Open Sans', sans-serif;
+font-size: 12px;
+line-height: 14px;
+color: #fff;
+padding-top: 50px;
+letter-spacing: 6px;
+}
+
+.ourteam-line{
+  width: 64px;
+  border: 1px solid #E8C300
+}
+
+.images-ourteam{
+  padding-top: 50px;
+}
+
+.ourteam-container{
+display: flex;
+justify-content: space-evenly;
+}
+
+.ourteam-text{
+  text-align: center;
+  width: 600px;
+  padding-top: 117px;
+}
+
+.title-ourteam{
+  font-family: "Bunny";
+  font-size: 36px;
+  line-height: 48px;
+  color: #fff; 
+}
+
+.suptitle-ourteam{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color:#FFFFFFE5; 
+}
+
+.suptitle-ourteam1{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #a5a5a5;
+
+}
+
+#square1{
+  z-index: 100;
+  margin: -375px -80px;
+	width: 210px;
+	height: 210px;
+  border: 20px solid #E8C300;
+  position: absolute;
+  z-index: 11;
+}
+
+.order-table{
+  display: flex;
+  justify-content: space-evenly;
+  height: 675px;
+}
+
+.title-order{
+  text-align: center;
+}
+
+.order-line{
+  width: 61px;
+  border: 1px solid #E8C300;
+}
+
+.order-img{
+  width: 475px;
+  height: 475px;
+}
+
+.order-form{
+  width: 600px;
+  padding-top: 162px;
+}
+
+.order-list{
+display: inline-block;
+}
+
+.order{
+  width: 277px;
+  height: 60px;
+  background: #E5E5E5;
+ color:#333333, 50%;
+ margin: 0px 10px 10px 0px;
+}
+
+.order-picture{
+padding-top: 100px;
+}
+
+#order-people{
+  width: 285px;
+  color:#333333, 50%;
+  height: 66px;
+}
+
+#order-time{
+  width: 280px;
+  color:#333333, 50%;
+}
+
+.order-btn{
+  width: 585px;
+  height: 60px;
+  background: #E8C300;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+#square2{
+  
+  z-index: 100;
+	width: 210px;
+	height: 210px;
+  border: 20px solid #E8C300;
+  position: absolute;
+  z-index: 11; 
+  margin: -360px 290px;
+}
+
+.foter-oreder{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  color: #333333 , 50%;
+}
+
+
+.container-specialties{
+  background: url(/images/special-bg-1.png);
+height: 675px;
+}
+
+.specialties-container{
+  display: flex;
+  justify-content: space-evenly;
+  }
+  
+  .ourteam-text{
+    text-align: center;
+    width: 600px;
+    padding-top: 117px;
+  }
+  
+  .specialties-title{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14px;
+  color: #fff;
+  letter-spacing: 4px;
+  padding-top: 50px;
+  }
+  
+  .suptitle-specialties{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color:#FFFFFFE5; 
+  }
+
+
+  .title-specialties{
+    font-family: "Bunny";
+  font-size: 36px;
+  line-height: 48px;
+  color: #fff;
+  }
+
+  .suptitle-specialties1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #a5a5a5;
+  }
+
+  .images-specialties{
+    padding-top: 50px;
+  }
+
+  .conatiner-menu{
+
+    height: 900px;
+  }
+
+  .delicious-menu{
+
+    padding: 100px 80px;
+    height: 720px;
+  }
+
+.menu-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+  .type-menu{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+
+  }
+
+.type-text{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  color: #333333;
+}
+
+.title-menu{
+  text-align: center;
+  font-family: "Bunny";
+  font-size: 36px;
+  line-height: 48px;
+  color: #000000;
+}
+
+.suptitle-menu{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+  width: 565px;
+  text-align: center;
+}
+
+.line-menu{
+  text-align: center;
+  width: 61px;
+  border: 1px solid #E8C300;
+}
+
+.type-line{
+  margin: 0;
+}
+
+.order-dish{
+  padding-top: 30px;
+text-align: center;
+}
+
+.dish{
+  width: 33%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  color: #333333;
+  display: inline-block;
+}
+
+.ing-dish{
+  font-size: 18px;
+  line-height: 18px;
+  font-family: "Bunny";
+  color: #333333;
+}
+
+.private-events{
+  max-width: 100%;
+  height: 675px;
+  background: url(/images/special-bg2.png);
+}
+
+.container-events{
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.title-events{
+  text-align: center;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 5px;
+  color: #fff;
+  padding-top: 50px;
+}
+
+.images-events{
+  width: 475px;
+  height: 475px;
+}
+
+.weeds-events{
+  display: flex;
+}
+
+.sup-text{
+  width: 80px;
+  height: 393px;
+  background: #000;
+  margin: 41px -45px
+}
+
+.weed-text{
+  font-size: 24px;
+  line-height: 12px;
+  font-family: "Bunny";
+  color: #fff;
+  transform: rotate(90deg);
+  padding-top: 35px;
+  letter-spacing: 5px;
+}
+
+.images-coprorative{
+  width: 475px;
+  height: 475px;
+}
+
+.coprorative-events{
+  display: flex;
+ flex-direction: row-reverse;
+}
+
+.sup-corporative{
+  width: 80px;
+  height: 393px;
+  background: #000;
+  margin:41px -45px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.corporative-text{
+  display: flex;
+  
+  font-size: 24px;
+  line-height: 12px;
+  font-family: "Bunny";
+  color: #fff;
+  transform: rotate(270deg);
+  letter-spacing: 5px;
+  margin: 120px -70px;
+}
+
+#square3{ 
+  z-index: 100;
+	width: 210px;
+	height: 210px;
+  border: 20px solid #E8C300;
+  position: absolute;
+  z-index: 11; 
+  margin: 100px -75px;
+}
+
+#square4{ 
+  z-index: 100;
+	width: 210px;
+	height: 210px;
+  border: 20px solid #E8C300;
+  position: absolute;
+  z-index: 11; 
+  margin: 100px -75px;
+}
+
+.footer-events{
+  padding-top: 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  color: #FFFFFF80;
+  text-align: center;
+}
+
+.contact{
+  height: 650px;
+}
+
+.contact-container{
+  text-align: center;
+  padding: 100px 0px;
+}
+
+.line-contact{
+  width: 61px;
+  border: 1px solid #E8C300;
+}
+
+.title-contact{
+  font-family: "Bunny";
+  font-size: 36px;
+  line-height: 48px;
+  color: #000000;
+}
+
+.suptitle-contact{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+  width: 565px;
+  margin: 0 auto;
+}
+
+.galery-photo{
+  max-width: 100%;
+  display: flex;
+  height: 360px;
+  background-size: cover;
+}
+
+.galery-photos, .galery-photos1 , .galery-photos2 , .galery-photos3 , .galery-photos4{
+  width: 25%;
+}
+
+.galery-photos1:hover , .galery-photos2:hover , .galery-photos3:hover , .galery-photos4:hover{
+  position: relative;
+  opacity: 1;
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+.form-contact{
+  display: inline-block;
+}
+
+.contact-name{
+  width: 420px;
+  height: 60px;
+  background: #E5E5E5;
+ color:#333333, 50%;
+ border: 0;
+
+}
+
+.contact-name1{
+  width: 1280px;
+  height: 120px;
+  background: #E5E5E5;
+ color:#333333, 50%;
+ border: 0;
+ margin: 10px 0px 10px 0px;
+ resize: none;
+}
+
+.text-contact{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  color:#333333, 50%;
+  width: 640px;
+}
+
+.footer-contact{
+display: flex;
+justify-content: center;
+
+}
+
+.contact-btn{
+width: 640px;
+  height: 60px;
+  background: #E8C300;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.map{
+  width: 100%;
+  height: 475px;
+  overflow:hidden;
+}
+
+.footer{
+  height: 100px;
+  background: #000;
+}
+
+.footer-text{
+  padding-top: 50px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  color:#fff
+}
+
+@media screen and (max-width: 1650px){
+.contact-name{
+  width: 350px;
+}
+.contact-name1{
+  width: 1070px;
+}
+}
+
+@media screen and (max-width: 1434px){
+.time-work{
+  padding-top: 30px;
+}
+.image-about{
+  width: 400px;
+  height: 400px;
+}
+#square , #square1{
+  width: 180px;
+  height: 180px;
+}
+
+#square1{
+margin: -305px -80px;
+}
+}
+
+@media screen and (max-width: 1400px){
+ .header-suptitle{
+   font-size: 4em;
+ }
+  }
+
+  @media screen and (max-width: 1280px){
+    .aboutus-text{
+      width: 500px;
+    }
+    .image-about{
+      width: 340px;
+      height: 340px;
+      padding-top: 50px;
+    }
+    #square{
+      width: 120px;
+      height: 120px;
+    }
+
+    #square1{
+      width: 100px;
+      height: 100px;
+      margin: -220px -50px;
+    }
+  }
+
+  @media screen and (max-width: 1240px){
+    .header-suptitle{
+      font-size: 3em;
+    }
+    .time-work{
+      padding-left: 0;
+    }
+     }
+
+     @media screen and (max-width: 1200px){
+      .container-events{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+      }
+      .images-events{
+        width: 300px;
+        height: 300px;
+      }
+      .sup-text, .sup-corporative{
+        height: 251px;
+        margin: 24px -45px;
+      }
+      #square3, #square4{
+        width: 120px;
+        height: 120px;
+        margin: 75px -75px;
+      }
+      .images-coprorative{
+        width: 300px;
+        height: 300px;
+      }
+      .title-events{
+        padding-top: 20px;
+      }
+      .footer-events{
+        padding: 0 0 10px 0;
+      }
+    }
+
+     @media screen and (max-width: 1130px){
+      .main-text{
+        padding: 250px 0 0 ;
+      }
+      .name-restoraun{
+        padding-right: 180px;
+      }
+      .time-work{
+        padding-top: 120px;
+      }
+      .aboutus{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .image-about{
+        padding: 0;
+        width: 300px;
+        height: 300px;
+      }
+      .aboutus-text{
+        padding: 50px 20px 0px;
+       }
+       .images-aboutus{
+        padding: 0;
+      }
+      .ourteam-container{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items:center;
+      }
+      .ourteam-text{
+        width: 500px;
+        padding: 0;
+      }
+      .images-ourteam{
+        padding: 0;
+      }
+      
+      .order-table{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .order-form{
+        padding-top: 0px;
+      }
+      .order-picture{  
+        padding: 0 ;
+      }
+      .order-img{
+        width: 300px;
+        height: 300px;
+      }
+      #square2{
+        width: 120px;
+        height: 120px;
+        margin: -220px 180px;
+      }
+      .order-list{
+        display: inline-block;
+        width: 80%;
+        padding-left: 150px;
+        padding-top: 20px;
+      }
+      
+      .order{
+        width: 30%;
+      }
+     
+      #order-people{
+        width: 32%;
+      }
+      
+      #order-time{
+        width: 31%;
+      }
+      
+      .order-btn{
+        width: 70%;
+      }
+      
+      .container-order{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .specialties-container{
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+      }
+      
+      .images-specialties{
+        padding: 0;
+      }
+      .delicious-menu{
+        padding: 0;
+      }
+    }
+
+     @media screen and (max-width: 1080px){
+      .galery-photo{
+        height: 280px;
+      }
+      .form-contact{
+        width: 600px;
+      }
+      .contact-name{
+        width: auto;
+      }
+      .contact-name1{
+        width: 483px;
+      }
+      .contact-container{
+        padding: 100px 0;
+      }
+      .suptitle-contact{
+        padding-bottom: 30px;
+      }
+      .footer-contact{
+        padding-top: 30px;
+      }
+    }
+
+    @media screen and (max-width: 1015px){
+      .suptitle-aboutus , .suptitle-aboutus1{
+        font-size: 0.8em;
+      }
+      
+      .suptitle-contact{
+        width: 100%;
+        font-size: 0.8em;
+      }
+
+      #square , #square1{
+        width: 100px;
+        height: 100px;
+      }
+      
+      #square{
+        margin: 95px -95px;
+      }
+
+      .aboutus-text{
+        padding: 50px 00px 0px;
+      }
+
+    }
+
+    @media screen and (max-width: 814px){
+    .dish{
+      width: 25%;
+    }
+    }
+
+     @media screen and (max-width: 775px){
+      .nav-text{
+        font-size: 0.6em;
+      }
+
+      #specialities{
+        width: 120px;
+      }
+
+      .nav{
+        padding-right: 20px;
+      }
+      .nav-line{
+        display: none;
+      }
+      .galery-photo{
+        height: 220px;
+      }
+      .form-contact{
+        width: 350px;
+      }
+      .contact-name{
+        width: 25%;
+      }
+      .contact-name1{
+        width: 280px;
+        height: 80px;
+      }
+      .contact-container{
+        padding: 100px 0;
+      }
+      .suptitle-contact{
+        padding-bottom: 30px;
+      }
+      .footer-contact{
+        padding-top: 30px;
+      }
+      .name-restoraun{
+        padding-right: 100px;
+      }
+    }
+    
+    @media screen and (min-width: 649px){
+      .dropdown{
+        display: none;
+      }
+    }
+    
+    @media screen and (max-width: 650px){
+      
+      .nav{
+        padding: 25px 10px;
+      }
+
+      .nav-text{
+        font-size: 0.6em;
+        
+      }
+
+     
+      #specialities{
+        margin: 0 auto;
+      }
+      
+      .suptitle-menu{
+        width: 500px;
+      }
+      .dish{
+        width: 15%;
+      }
+      .galery-photo{
+        height: 160px;
+      }
+      .aboutus-text, .ourteam-text{
+        width: 350px;
+      }
+      .images-aboutus {
+        padding-right: 80px;
+      }
+      .images-ourteam , .images-specialties{
+        padding-left: 50px;
+      }
+      .order-picture{
+        padding-right: 50px;
+      }
+      .suptitle-menu{
+        width: 350px;
+      }
+      .conatiner-menu{
+        padding-bottom: 50px;
+      }
+      .images-events{
+        width: 200px;
+        height: 200px;
+      }
+      #square3{
+        width: 80px;
+        height: 80px;
+        margin: 40px -45px;
+      }
+      .sup-text{
+        height: 167px;
+        margin: 17px -45px;
+    }
+    .images-coprorative{
+      width: 200px;
+      height: 200px;
+    }
+    #square4{
+      width: 80px;
+      height: 80px;
+      margin: 40px -45px;
+    }
+    .sup-corporative{
+    height: 170px;
+    margin: 16px -45px;
+    }
+    .corporative-text{
+      font-size: 0.8em;
+    padding-right: 73px;
+    }
+    .coprorative-events{
+      padding-top: 100px;
+      padding-bottom: 50px;
+    }
+    .nav-text, .time , .social-media{
+      display: none;
+    }
+    .name-restoraun{
+      padding:120px 0 0;
+      width: 100%;
+    }
+    .main-text{
+      padding: 0;
+    }
+    .order-form{
+      width: 100%;
+    }
+    .order-list{
+      padding-left: 75px;
+    }
+    .btn{
+      width: 70%;
+      margin: 0 auto;
+    }
+    .header-btn{
+      margin: 0 20px;
+    }
+  }
+
+ @media screen and (max-width: 375px){
+      .order-dish{
+        padding-bottom: 530px;
+      }
+
+@media screen and (max-width: 350px){
+     .suptitle-menu , .suptitle-aboutus, .suptitle-aboutus1, .title-aboutus,.aboutus-text, .ourteam-text,.order-form, .order-table{
+       width: 300px;
+       margin: 0 auto;
+     }
+     .image-about, .order-img{
+       width: 250px;
+       height: 250px;
+     }
+     #square{
+      margin: 60px -115px;
+     }
+     .order-list{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-left: 50px;
+     }
+     .order{
+       width: 100%;
+       height: 35px;
+     }
+     #order-people, #order-time{
+       width: 103%;
+       height: 35px;
+     }
+     .order-btn{
+      height: 35px;
+      width: 105%;
+     }
+     #square2{
+       width: 100px;
+       height: 100px;
+       margin: -195px 155px;
+     }
+     .conatiner-menu{
+       width: 300px;
+       padding-bottom: 450px;
+     }
+     .dish{
+       width: 20%;
+     }
+     .contact-container{
+       width: 300px;
+       padding: 35px 0;
+     }
+     .form-contact{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 300px;
+     }
+     .contact-name{
+       width: 80%;
+       height: 35px;
+       margin: 5px 0;
+     }
+     .contact-name1{
+    width: 80%;
+    height: 70px;
+     }
+     .footer-contact{
+       display: flex;
+       flex-direction: column-reverse;
+     }
+     .contact-btn{
+      width: 250px;
+      margin: 0 auto;
+     }
+     .text-contact{
+       width: 300px;
+     } 
+  }
