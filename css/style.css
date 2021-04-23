@@ -16,6 +16,10 @@ head,body{
 
 .dropdown {
 position: relative;
+display: flex;
+justify-content: flex-end;
+right: 35px;
+top: 60px;
 }
 
 .dropdown-child {
