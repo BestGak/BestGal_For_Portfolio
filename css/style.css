@@ -981,9 +981,11 @@ margin: -305px -80px;
       }
 
       .aboutus-text{
-        padding: 50px 00px 0px;
+        padding: 0px 0px 0px;
       }
-
+	    .ourteam-title , .specialties-title{
+	    padding-top: 20px;
+	    }
     }
 
     @media screen and (max-width: 814px){
@@ -1060,7 +1062,8 @@ margin: -305px -80px;
         width: 500px;
       }
       .dish{
-        width: 15%;
+        width: 20%;
+    	margin: 5px 5px;
       }
       .galery-photo{
         height: 160px;
@@ -1081,7 +1084,7 @@ margin: -305px -80px;
         width: 350px;
       }
       .conatiner-menu{
-        padding-bottom: 50px;
+        padding-bottom: 250px;
       }
       .images-events{
         width: 200px;
