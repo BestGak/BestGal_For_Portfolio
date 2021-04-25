@@ -1,13 +1,13 @@
    @font-face {
     font-family: "Bunny";
-    src: url(/fonts/Bunny.otf);
+    src: url(../fonts/Bunny.otf);
 }
 
 head,body{
   margin: 0;
 }
 .header{
-  background: url(/images/header-bg.png) top center no-repeat;
+  background: url(../images/header-bg.png) top center no-repeat;
   height: 800px;
   background-size: cover;
   position: relative;
@@ -178,7 +178,7 @@ letter-spacing: 4px;
 .header-last-btn{
   width: 60px;
   height: 60px;
-  background: url(/images/down-btn.svg);
+  background: url(../images/down-btn.svg);
   border: 0;
 }
 
@@ -238,7 +238,7 @@ letter-spacing: 4px;
 }
 
 .ourteam{
-  background: url(/images/special-bg.png);
+  background: url(../images/special-bg.png);
   height: 675px;
 }
 
@@ -386,7 +386,7 @@ padding-top: 100px;
 
 
 .container-specialties{
-  background: url(/images/special-bg-1.png);
+  background: url(../images/special-bg-1.png);
 height: 675px;
 }
 
