@@ -142,3 +142,21 @@ let containerContact1 = document.querySelector('#container_contact1');
 buttonContact1.addEventListener('click', () => {
   containerContact1.scrollIntoView({ behavior: 'smooth' });
 });
+
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+if (!event.target.matches('.menu1')) {
+
+  var dropdowns = document.getElementsByClassName("dropdown-child");
+  var i;
+  for (i = 0; i < dropdowns.length; i++) {
+    var openDropdown = dropdowns[i];
+    if (openDropdown.classList.contains('show')) {
+      openDropdown.classList.remove('show');
+    }
+  }
+}
+}
