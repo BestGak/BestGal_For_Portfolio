@@ -521,7 +521,7 @@ text-align: center;
 .private-events{
   max-width: 100%;
   height: 675px;
-  background: url(/images/special-bg2.png);
+  background: url(../images/special-bg2.png);
 }
 
 .container-events{
