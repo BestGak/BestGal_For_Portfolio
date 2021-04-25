@@ -1019,7 +1019,7 @@ margin: -305px -80px;
         width: 25%;
       }
       .contact-name1{
-        width: 300px;
+        width: 290px;
         height: 80px;
       }
       .contact-container{
@@ -1040,6 +1040,7 @@ margin: -305px -80px;
 	 }
 	.contact-btn {
     	width: 300px;
+	margin: 0 auto;
 	}   
       .name-restoraun{
         padding-right: 100px;
