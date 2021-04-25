@@ -1160,6 +1160,9 @@ margin: -305px -80px;
       .order-dish{
         padding-bottom: 530px;
       }
+	 #square3 , #square4{
+		 display:none;
+	 }
 
 @media screen and (max-width: 350px){
      .suptitle-menu , .suptitle-aboutus, .suptitle-aboutus1, .title-aboutus,.aboutus-text, .ourteam-text,.order-form, .order-table{
