@@ -1166,6 +1166,9 @@ margin: 0 auto;
   .header-btn{
     margin: 0 20px;
   }
+    .title-order {
+    padding-top: 25px;
+}
 }
 
 @media screen and (max-width: 375px){
