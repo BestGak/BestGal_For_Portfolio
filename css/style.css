@@ -1145,8 +1145,20 @@ margin: 0 auto;
     width: 100%;
   }
   .order-list{
-    padding-left: 75px;
+    padding-left: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
+  .order, #order-people , #order-time{
+    width: 100%;
+    height: 33px;
+}
+.order-btn {
+  width: 100%;
+  height: 40px;
+}
   .btn{
     width: 70%;
     margin: 0 auto;
@@ -1180,7 +1192,6 @@ margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 50px;
    }
    .order{
      width: 100%;
