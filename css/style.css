@@ -53,9 +53,9 @@ display: block;
 transition-duration: 3s;
 }
 
-#dropdown-child{
-z-index: 100;
-}
+ .header_btn{
+  z-index: 100;
+  }
 
 #menu1{
 width: 30px;
