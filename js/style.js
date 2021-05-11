@@ -6,7 +6,10 @@ let containerAbout = document.querySelector('#container_about');
 
 buttonAbout.addEventListener('click', () => {
   containerAbout.scrollIntoView({ behavior: 'smooth' });
+  menuBtn.classList.toggle('active');
+	menu.classList.toggle('active');
 });
+
 
 
 /*team*/
@@ -16,6 +19,8 @@ let containerTeam = document.querySelector('#container_team');
 
 buttonTeam.addEventListener('click', () => {
   containerTeam.scrollIntoView({ behavior: 'smooth' });
+  menuBtn.classList.toggle('active');
+	menu.classList.toggle('active');
 });
 
 /*Booking*/
@@ -25,6 +30,8 @@ let containerBooking = document.querySelector('#container_booking');
 
 buttonBooking.addEventListener('click', () => {
   containerBooking.scrollIntoView({ behavior: 'smooth' });
+  menuBtn.classList.toggle('active');
+	menu.classList.toggle('active');
 });
 
 
@@ -35,6 +42,8 @@ let containerMenu = document.querySelector('#container_menu');
 
 buttonMenu.addEventListener('click', () => {
   containerMenu.scrollIntoView({ behavior: 'smooth' });
+  menuBtn.classList.toggle('active');
+	menu.classList.toggle('active');
 });
 
 /*Galerie*/
@@ -44,6 +53,8 @@ let containerGalerie = document.querySelector('#container_galerie');
 
 buttonGalerie.addEventListener('click', () => {
   containerGalerie.scrollIntoView({ behavior: 'smooth' });
+  menuBtn.classList.toggle('active');
+	menu.classList.toggle('active');
 });
 
 /*Specialities*/
@@ -52,6 +63,8 @@ let containerSpecialities = document.querySelector('#container_specialities');
 
 buttonSpecialities.addEventListener('click', () => {
   containerSpecialities.scrollIntoView({ behavior: 'smooth' });
+  menuBtn.classList.toggle('active');
+	menu.classList.toggle('active');
 });
 
 /*Events*/
@@ -61,6 +74,8 @@ let containerEvents = document.querySelector('#container_events');
 
 buttonEvents.addEventListener('click', () => {
   containerEvents.scrollIntoView({ behavior: 'smooth' });
+  menuBtn.classList.toggle('active');
+	menu.classList.toggle('active');
 });
 
 /*Contact*/
@@ -70,8 +85,9 @@ let containerContact = document.querySelector('#container_contact');
 
 buttonContact.addEventListener('click', () => {
   containerContact.scrollIntoView({ behavior: 'smooth' });
+  menuBtn.classList.toggle('active');
+	menu.classList.toggle('active');
 });
-
 
 
 /*About*/
