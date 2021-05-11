@@ -72,13 +72,7 @@ buttonContact.addEventListener('click', () => {
   containerContact.scrollIntoView({ behavior: 'smooth' });
 });
 
-/*Burger*/
-const openMenu= document.querySelector('.dropdown');
-const menu = document.querySelector('.dropdown-child');
 
-openMenu.addEventListener('click', () => {
- menu.classList.toggle(".menu-open");
-});
 
 /*About*/
 
@@ -143,20 +137,10 @@ buttonContact1.addEventListener('click', () => {
   containerContact1.scrollIntoView({ behavior: 'smooth' });
 });
 
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
+let menuBtn = document.querySelector('.menu-btn');
+let menu = document.querySelector('.menu');
 
-window.onclick = function(event) {
-if (!event.target.matches('.menu1')) {
-
-  var dropdowns = document.getElementsByClassName("dropdown-child");
-  var i;
-  for (i = 0; i < dropdowns.length; i++) {
-    var openDropdown = dropdowns[i];
-    if (openDropdown.classList.contains('show')) {
-      openDropdown.classList.remove('show');
-    }
-  }
-}
-}
+menuBtn.addEventListener('click', function(){
+	menuBtn.classList.toggle('active');
+	menu.classList.toggle('active');
+})
