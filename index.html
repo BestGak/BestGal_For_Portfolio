@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,8 +13,8 @@
 </head>
 <body>
   <header class="header">
-    <div class="header__iner">
-       <main>
+
+    <main>
       <div class="menu-btn">
         <span id="menu-btn-span1" class="menu-btn-span"></span>
         <span id="menu-btn-span2" class="menu-btn-span"></span>
@@ -32,25 +34,27 @@
         <li class="menu-li"><a id="contact">Contact</a></li>
       </nav>
     </div>
+    
     <div class="main-header">
       <div class="nav">
+        <div class="nav_first_part">
         <a class="nav-text" id="home">HOME</a>
         <a class="nav-text" id="about1">ABOUT</a>
         <a class="nav-text" id="team1">TEAM</a>
         <a class="nav-text" id="booking1">BOOKING</a>
-
-        <img id="specialities" src="./images/Vector.svg" alt="">
+          </div>
+        <img id="specialities" src="images/Vector.svg" alt="">
+        <div class="nav_second_part">
         <a class="nav-text" id="menu2">MENU</a>
         <a class="nav-text" id="galerie1">GALERIE</a>
         <a class="nav-text" id="events1">EVENTS</a>
         <a class="nav-text" id="contact1">CONTACT</a>    
       </div>
+      </div>
       
-      <div class="nav-line">
-      <hr class="nav-hr">
-      <hr class="nav-hr">
-    </div>
-    <div class="main-text">
+
+    <div class="main-container">
+      <div class="promo_align">
       <div class="time">
       <p class="time-work">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM</p>
     </div>
@@ -58,6 +62,7 @@
       <p class="header-title">RESTAURANT</p>
       <h2 class="header-suptitle">HUNGRY PEOPLE</h2>
       <hr class="name-line">
+      <div class="line"></div>
       <div class="btn">
       <button class="header-btn">BOOK TABLE</button>
       <button class="header-button">EXPLORE</button>
@@ -65,9 +70,10 @@
     <button class="header-last-btn"></button>
     </div>
     <div class="social-media">
-      <a href="https://www.facebook.com/"><img src="./images/1.png" alt=""> </a>
-      <a href="https://twitter.com/?lang=ru"><img src="./images/3.svg" alt=""></a>
-      <a href="https://www.instagram.com/"><img src="./images/3.png" alt=""></a>
+      <a href="https://www.facebook.com/"><img src="images/1.png" alt=""> </a>
+      <a href="https://twitter.com/?lang=ru"><img src="images/3.svg" alt=""></a>
+      <a href="https://www.instagram.com/"><img src="images/3.png" alt=""></a>
+    </div>
     </div>
     </div>
   </header>
@@ -80,7 +86,7 @@
       <p class="suptitle-aboutus1">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
     </div>
     <div class="images-aboutus">
-    <img class="image-about" src="./images/about-img.png" alt="">
+    <img class="image-about" src="/images/about-img.png" alt="">
     <div id="square"></div>
   </div>
   </div>
@@ -89,7 +95,7 @@
     <h3 id="container_team1" class="ourteam-title">OUR TEAM</h3>
     <div class="ourteam-container">
   <div class="images-ourteam">
-  <img class="image-about" src="./images/Rectangle.png" alt="">
+  <img class="image-about" src="/images/Rectangle.png" alt="">
   <div id="square1"></div>
 </div>
   <div class="ourteam-text">
@@ -118,12 +124,18 @@
   <option value="4">4</option>
 </select> 
 <input class="order" type="text" name placeholder="Date(mm/dd)">
-<input id="order-time" class="order" type="time" id="time" name="time"/>
+<select id="order-time" class="order" name="time">
+  <option>Time</option>
+  <option value="1">12:00</option> 
+  <option value="2">13:00</option> 
+  <option value="3">14:00</option> 
+  <option value="4">15:00</option>
+</select> 
 <button class="order-btn">BOOK NOW</button>
 </div>
 </div>
 <div class="order-picture">
-<img class="order-img" src="./images/order.png" alt="">
+<img class="order-img" src="/images/order.png" alt="">
 <div id="square2"></div>
 </div>
 </div>
@@ -134,7 +146,7 @@
   <h3 class="specialties-title">SPECIALTIES</h3>
     <div class="specialties-container">
   <div class="images-specialties">
-  <img class="image-about" src="./images/Rectangle1.png" alt="">
+  <img class="image-about" src="/images/Rectangle1.png" alt="">
   <div id="square1"></div>
 </div>
   <div class="ourteam-text">
@@ -217,7 +229,7 @@
 <div class="container-events">
   <div class="weeds-events">
     <div id="square3"></div>
-  <img class="images-events" src="./images/weddings.png" alt="">
+  <img class="images-events" src="/images/weddings.png" alt="">
   <div class="sup-text">
     <p class="weed-text">WEDDINGS</p>
   </div>
@@ -225,7 +237,7 @@
 
 <div class="coprorative-events"> 
     <div id="square4"></div>
-    <img class="images-coprorative" src="./images/corporotive.png" alt="">
+    <img class="images-coprorative" src="/images/corporotive.png" alt="">
     <div class="sup-corporative">
       <p class="corporative-text">CORPORATE&nbsp;PZRTIES</p>
   </div>
@@ -234,10 +246,10 @@
 <p id="container_galerie" class="footer-events">For private events please call: +40 729 131 637/+40 726 458 782 or use the contact form.</p>
 </div>
 <div id="container_galerie1"  class="galery-photo">
-  <img class="galery-photos1" src="./images/galery1.png" alt="">
-  <img class="galery-photos2" src="./images/galery2.png" alt="">
-  <img class="galery-photos3" src="./images/galery3.png" alt="">
-  <img class="galery-photos4" src="./images/galery4.png" alt="">
+  <img class="galery-photos1" src="/images/galery1.png" alt="">
+  <img class="galery-photos2" src="/images/galery2.png" alt="">
+  <img class="galery-photos3" src="/images/galery3.png" alt="">
+  <img class="galery-photos4" src="/images/galery4.png" alt="">
 </div>
 
 
@@ -266,7 +278,8 @@
 <div class="footer">
   <p class="footer-text">© Copyright Andropov Misha  2021</p>
 </div>
-<script src="./js/style.js"></script>
+<script src="/js/style.js"></script>
+<script src="/js/burger.js"></script>
 </body>
 </html>
 
