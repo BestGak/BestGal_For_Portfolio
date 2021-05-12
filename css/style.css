@@ -44,7 +44,7 @@ position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: maroon;
+    background-color: #fff;
     transition: all 0.5s;
   }
   
