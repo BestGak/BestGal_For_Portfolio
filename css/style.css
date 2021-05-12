@@ -904,6 +904,8 @@ height: 60px;
 background: #E8C300;
 color: #FFFFFF;
 cursor: pointer;
+border: 0;
+border-radius: 5px;
 }
 
 .map{
@@ -1250,9 +1252,6 @@ flex-direction: column;
     width: 300px;
 margin: 0 auto;
 }   
-    .name-restoraun{
-      padding-right: 100px;
-    }
   }
   
   @media screen and (min-width: 649px){
